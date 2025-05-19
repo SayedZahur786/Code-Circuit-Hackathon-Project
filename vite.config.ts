@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: process.env.VITE_BASE_BATH || "/Code-Circuit-Hackathon-Project",
 });
